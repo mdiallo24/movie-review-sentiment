@@ -1,3 +1,4 @@
+python==3.11.5
 tensorflow==2.11.0
 tensorboard
 keras
