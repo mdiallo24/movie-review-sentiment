@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Data files
+# *.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Model files
+# *.h5
+# *.keras
+# *.pkl
+*.joblib
+*.sav
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.bak
+*.tmp
+*.swp
