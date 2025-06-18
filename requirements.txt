@@ -1,4 +1,4 @@
-tensorflow-cpu==2.15
+tensorflow==2.11.0
 tensorboard
 keras
 torch
