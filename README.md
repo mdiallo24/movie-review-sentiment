@@ -21,9 +21,21 @@ The project is organized for easy experimentation, deployment, and extension to 
 ```
 conda create -p venv python==3.11 -y
 conda activate venv/
+
+or
+
+python3 -m venv .venv
+. .venv/bin/activate
+
+then
+
 pip install -r requirements.txt
 pip install ipykernel
 streamlit run main.py
+
+pip install --upgrade pydantic typer transformers
+
+pip install --upgrade --use-feature=fast-deps gradio sentence-transformers
 ```
 
 # Sentiment Analysis with Deep Learning
@@ -109,6 +121,7 @@ This project is licensed under the MIT License.
 ---
 
 **Contributions
+
 ```
 DiaMaBo Dev
 ```
